@@ -14,10 +14,9 @@
 
         fetch("dados.json").then((response) => {
             response.json().then((dados) => {
-               dados.usuarios.map((usuarios) => {
+               dados.usuarios.map((usuario) => {
                 divUser.innerHTML += `<li> ${usuario.nome} - ${usuario.idade} anos</li>`
                })
-            
         })
   })
     </script>

@@ -1,0 +1,22 @@
+[
+    {
+        "nome":"minecraft",
+        "imagem":"img/minecraft.jpeg"
+    },
+    {
+        "nome":"roblox",
+        "imagem":"img/roblox.jpeg"
+    },
+    {
+        "nome":"call of duty",
+        "imagem":"img/call-of-duty.jpeg"
+    },
+    {
+        "nome":"fall guys",
+        "imagem":"img/fall-guys.jpeg"
+    },
+    {
+        "nome":"free fire",
+        "imagem":"img/free-fire.jpeg"
+    }
+]
