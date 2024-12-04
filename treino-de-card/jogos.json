@@ -1,22 +1,32 @@
 [
     {
+        "id":1,
         "nome":"minecraft",
         "imagem":"img/minecraft.jpeg"
     },
     {
+        "id":2,
         "nome":"roblox",
         "imagem":"img/roblox.jpeg"
     },
     {
+        "id":3,
         "nome":"call of duty",
         "imagem":"img/call-of-duty.jpeg"
     },
     {
+        "id":4,
         "nome":"fall guys",
         "imagem":"img/fall-guys.jpeg"
     },
     {
+        "id":5,
         "nome":"free fire",
         "imagem":"img/free-fire.jpeg"
+    },
+    {
+        "id":6,
+        "nome":"Among Us",
+        "imagem":"img/amongus.jpeg"
     }
 ]

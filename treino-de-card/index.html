@@ -27,16 +27,38 @@
     </style>
 </head>
 <body>
-    <div class="conteiner">
-        <div class="card">
-            <img src="img/amongus.jpeg" alt="">
-            <h3>Among Us </h3>
-        </div>
+    <div class="conteiner" id="jogos-container">
     </div>
     <script>
         function carregar(){
-            
+            fetch("jogos.json")
+                .then(response => response.json())
+                .then(jogos => {
+                    const container =  document.querySelector("#jogos-container")
+
+                    jogos.map(jogo => {
+                        const card = document.createElement("div")
+                        card.classList.add("card")
+
+                        const img = document.createElement("img");
+                        img.src = jogo.imagem
+                        img.alt = jogo.nome 
+
+                        const id = document.createElement("p")
+                        id.textContent = `ID: ${jogo.id}`
+
+                        const titulo = document.createElement("h3")
+                        titulo.textContent = jogo.nome
+
+                        card.appendChild(img)
+                        card.appendChild(id)
+                        card.appendChild(titulo)
+                        container.appendChild(card)
+                         
+                    })
+                })
         }
+        carregar()
     </script>
 </body>
 </html>
