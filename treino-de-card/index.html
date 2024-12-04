@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
     <style>
         .conteiner{
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-around;
+            justify-content: space-evenly   ;
         }
         .card{
             border: 1px solid #ccc;
@@ -27,7 +28,7 @@
     </style>
 </head>
 <body>
-    <div class="conteiner" id="jogos-container">
+    <div class="conteiner" class="justify-a" id="jogos-container">
     </div>
     <script>
         function carregar(){
